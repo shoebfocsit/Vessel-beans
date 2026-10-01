@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-warm-cream: #FAF7F2;
+  --color-warm-surface: #FFFFFF;
+  --color-warm-subtle: #F4EFEA;
+  --color-warm-border: #E8DFD5;
+  --color-warm-dark: #231C16;
+  --color-warm-body: #3E3228;
+  --color-warm-muted: #7E7267;
+  --color-warm-caramel: #9C6644;
+  --color-warm-terracotta: #B05D3B;
+  --color-warm-espresso: #4A3525;
+}
+
+/* Custom smooth transitions and typography helpers */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Custom delicate scrollbar for cafe drawer and lists */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8CCC0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8A89A;
+}

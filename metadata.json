@@ -1,0 +1,6 @@
+{
+  "name": "Vessel & Bean — Specialty Coffee & Stories",
+  "description": "A warm, minimalist coffee atelier celebrating single-origin coffee culture, seasonal roasts, handcrafted beverages, and barista origin stories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
