@@ -54,14 +54,27 @@ export interface CoffeeStory {
   likes: number;
 }
 
-export const HERO_IMAGE = '/src/assets/images/hero_cafe_pourover_1790870137812.jpg';
-export const CULTURE_BEANS_IMAGE = '/src/assets/images/coffee_beans_culture_1790870151902.jpg';
-export const LATTE_ART_IMAGE = '/src/assets/images/flat_white_ceramic_1790870170235.jpg';
-export const COLD_BREW_IMAGE = '/src/assets/images/cold_brew_glass_1790870183081.jpg';
-export const BARISTA_CRAFT_IMAGE = '/src/assets/images/barista_craft_story_1790870194432.jpg';
-export const OUR_STORY_FOUNDING_IMAGE = '/src/assets/images/our_story_founding_1790870477294.jpg';
-export const BARISTA_SPOTLIGHT_IMAGE = '/src/assets/images/barista_spotlight_1790870491029.jpg';
-export const COMMUNITY_CUPPING_IMAGE = '/src/assets/images/community_cupping_1790870504681.jpg';
+import heroImage from '../assets/images/hero_cafe_pourover_1790870137812.jpg';
+import cultureBeansImage from '../assets/images/coffee_beans_culture_1790870151902.jpg';
+import latteArtImage from '../assets/images/flat_white_ceramic_1790870170235.jpg';
+import coldBrewImage from '../assets/images/cold_brew_glass_1790870183081.jpg';
+import baristaCraftImage from '../assets/images/barista_craft_story_1790870194432.jpg';
+import ourStoryFoundingImage from '../assets/images/our_story_founding_1790870477294.jpg';
+import baristaSpotlightImage from '../assets/images/barista_spotlight_1790870491029.jpg';
+import communityCuppingImage from '../assets/images/community_cupping_1790870504681.jpg';
+import cafeEveningPartyImage from '../assets/images/cafe_evening_party_1790871292160.jpg';
+import cafePastryDisplayImage from '../assets/images/cafe_pastry_display_1790871307041.jpg';
+
+export const HERO_IMAGE = heroImage;
+export const CULTURE_BEANS_IMAGE = cultureBeansImage;
+export const LATTE_ART_IMAGE = latteArtImage;
+export const COLD_BREW_IMAGE = coldBrewImage;
+export const BARISTA_CRAFT_IMAGE = baristaCraftImage;
+export const OUR_STORY_FOUNDING_IMAGE = ourStoryFoundingImage;
+export const BARISTA_SPOTLIGHT_IMAGE = baristaSpotlightImage;
+export const COMMUNITY_CUPPING_IMAGE = communityCuppingImage;
+export const CAFE_EVENING_PARTY_IMAGE = cafeEveningPartyImage;
+export const CAFE_PASTRY_DISPLAY_IMAGE = cafePastryDisplayImage;
 
 export interface BlogPost {
   id: string;
